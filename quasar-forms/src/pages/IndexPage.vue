@@ -86,14 +86,14 @@
         class="col-md-12 col-sm-12 col-xs-12"
       />
 
-      <span class="text-bold q-mt-md">Possui alguma dificuldade? </span>
+      <!-- <span class="text-bold q-mt-md">Possui alguma dificuldade? </span>
       <q-option-group
         :options="optionsDificuldades"
         type="checkbox"
         v-model="form.dificuldades"
         class="col-md-12 col-sm-12 col-xs-12"
         color="primary"
-      />
+      /> -->
 
       <q-toggle
         v-model="form.notificacoes"
